@@ -1,0 +1,53 @@
+.dropdown-menu {
+  background-color: #343a40; /* Asegura buen contraste */
+}
+.dropdown-item:hover {
+  background-color: #495057;
+}
+
+#personajesList {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a.nav-link {
+  cursor: pointer;
+}
+
+.images {
+  height: 20rem
+}
+
+/* CELULARES */
+@media (max-width: 568px) {
+    .col-lg-4, .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    #logo {
+        max-width: 10rem;
+    }
+}
+  
+/* TABLETS */
+@media (min-width: 569px) and (max-width: 1024px) {
+    .col-lg-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    #logo {
+        max-width: 15rem;
+    }
+}
+  
+/* PC */
+@media (min-width: 1025px) {
+    .col-lg-4 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+    #logo {
+        max-width: 20rem;
+    }
+}
+  
+
